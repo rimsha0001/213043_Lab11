@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_213043_Example01_Lab11</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pexels-gianluca-grisenti-4215110.jpg" />
+    <None Remove="pexels-mariam-antadze-5968894.jpg" />
+    <None Remove="pexels-senuscape-1658967.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pexels-gianluca-grisenti-4215110.jpg" />
+    <Resource Include="pexels-mariam-antadze-5968894.jpg" />
+    <Resource Include="pexels-senuscape-1658967.jpg" />
+  </ItemGroup>
+
+</Project>
